@@ -1,0 +1,15 @@
+
+junit junit * * * *
+org.apache.maven.plugins maven-release-plugin * * * *
+org.slf4j slf4j-simple * * * *
+org.sonatype.plugins nexus-staging-maven-plugin * * * *
+org.webjars bootstrap * * * *
+org.webjars jquery * * * *
+org.webjars requirejs * * * *
+org.webjars when-node * * * *
+org.webjars.bower angular-bootstrap * * * *
+org.webjars.bower angular-schema-form * * * *
+org.webjars.npm angular-pouchdb * * * *
+org.webjars.npm babel-runtime * * * *
+org.webjars.npm object-assign * * * *
+org.webjars.npm validate.js * * * *

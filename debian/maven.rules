@@ -1,0 +1,8 @@
+
+com.fasterxml.jackson.core jackson-databind bundle s/.*/2.x/ * *
+com.fasterxml.jackson.core jackson-databind bundle s/2\..*/2.x/ * *
+com.fasterxml.jackson.core jackson-databind s/jar/bundle/ s/.*/2.x/ * *
+com.fasterxml.jackson.core jackson-databind s/jar/bundle/ s/2\..*/2.x/ * *
+org.apache.commons commons-lang3 jar s/3\..*/3.x/ * *
+org.webjars webjars-locator-core jar s/.*/debian/ * *
+org.webjars webjars-locator jar s/.*/debian/ * *

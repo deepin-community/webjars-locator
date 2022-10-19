@@ -1,0 +1,30 @@
+Source: webjars-locator
+Section: java
+Priority: optional
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Uploaders: Emmanuel Bourg <ebourg@apache.org>
+Build-Depends: debhelper (>= 9), default-jdk, maven-debian-helper (>= 1.5)
+Build-Depends-Indep: libjackson2-databind-java,
+                     libwebjars-locator-core-java
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-java/webjars-locator.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-java/webjars-locator.git
+Homepage: http://webjars.org
+
+Package: libwebjars-locator-java
+Architecture: all
+Depends: ${maven:Depends}, ${misc:Depends}
+Suggests: ${maven:OptionalDepends}
+Description: WebJars Locator
+ WebJars are client-side web libraries (e.g. jQuery & Bootstrap) packaged
+ into JAR files. They allow one to:
+  * Explicitly and easily manage the client-side dependencies in JVM-based
+    web applications
+  * Use JVM-based build tools (e.g. Maven, Gradle...) to download client-side
+    dependencies
+  * Know which client-side dependencies are used
+  * Resolve transitive dependencies automatically and optionally load them
+    via RequireJS
+ .
+ The WebJars Locator library provides a means to  load WebJars transitive
+ dependencies with RequireJS.
